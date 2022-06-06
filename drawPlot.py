@@ -20,8 +20,10 @@ def selectDB():
             result = cur.fetchall()
             x_values = []
             y_values = []
+            #######################################plot 그릴 때의 기간 입력
             start = "2022-05-31"
             last = "2022-06-06"
+            ###########################################################
             for data in result:
                 if data[0] <= start:
                     print("break!")
