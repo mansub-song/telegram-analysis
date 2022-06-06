@@ -12,4 +12,3 @@ venv
 anaconda-project.yml
 *.json
 *.ipynb
-config.ini
