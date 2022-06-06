@@ -10,7 +10,6 @@ from telethon.tl.types import (
     PeerChannel
 )
 
-
 # some functions to parse json date
 class DateTimeEncoder(json.JSONEncoder):
     def default(self, o):
